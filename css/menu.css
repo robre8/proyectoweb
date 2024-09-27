@@ -29,6 +29,7 @@ nav {
     border-radius: 3px;
     color: black;
 } 
+
 .logo img {
     width: 10%;
     padding: 1% 2% 1% 5%;
@@ -45,5 +46,7 @@ footer {
 }
 
 footer p {
-    color: white;
+    
+    text-align: center;
+    margin-top: 2%;
 }
