@@ -7,26 +7,39 @@
     margin-top: 2%;
     margin-left: 5%;
     margin-right: 5%;
-
 }
 
-h1,
+h1 { 
+    color:rgb(9, 160, 160);
+    margin-bottom: 2%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Get Schwifty';
+    font-size: 80px;
+    -webkit-text-stroke: 5px rgba(160, 162, 23, 0.5);
+}
+
 h2{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
 }
 
 .section-flex {
     display: flex;
     flex-wrap: wrap;
+    background-color: rgb(25, 87, 9);
+    border-radius: 5%;
 }
 
 .character {
     width: 25%;
     margin: 3%;
-    border: 2px blue solid;
+    border: 5px rgb(39, 132, 16) solid;
     text-align: center;
     border-radius: 5%;
+    background-color: rgb(93, 195, 86);
+    
 }
 
 .character img{
@@ -37,10 +50,11 @@ h2{
 .info-character{
     padding: 3%;
     text-align: justify;
+    color:white;
 }
 
 h2{
     margin: 2%;
     font-weight: bold;
-
+    
 }
